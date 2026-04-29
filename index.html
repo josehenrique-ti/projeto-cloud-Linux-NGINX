@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Cloud - José Henrique</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #020617;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #1f2937;
+        }
+
+        h1 {
+            color: #e5e7eb;
+        }
+
+        h2 {
+            color: #cbd5f5;
+            margin-top: 20px;
+            border-bottom: 1px solid #1f2937;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Projeto Cloud Azure</h1>
+
+        <h2>Descrição</h2>
+        <p>
+            Este projeto foi desenvolvido com o objetivo de aplicar na prática conceitos de Cloud Computing utilizando Microsoft Azure.
+            Foram provisionadas duas máquinas virtuais (Windows Server e Ubuntu Linux), configurando comunicação entre elas, acesso remoto e serviços web.
+            Durante o projeto enfrentei desafios na criação de máquinas virtuais, configuração de acesso remoto (RDP/SSH) e controle de portas via firewall (NSG).
+            Isso me permitiu aplicar na prática conceitos de redes e segurança, além de desenvolver habilidades de resolução de problemas em ambiente real de cloud.
+        </p>
+
+        <h2>Arquitetura</h2>
+        <p><strong>VM Windows Server:</strong> 10.0.0.4</p>
+        <p><strong>VM Ubuntu:</strong> 10.0.0.5</p>
+        <p><strong>Rede:</strong> VNet Azure</p>
+
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Acesso remoto via RDP (Windows)</li>
+            <li>Acesso via SSH (Linux)</li>
+            <li>Comunicação interna entre VMs</li>
+            <li>Servidor web rodando (IIS e Python)</li>
+            <li>Firewall configurado (NSG)</li>
+            <li>Teste de portas com Nmap</li>
+        </ul>
+
+        <h2>Segurança (básico)</h2>
+        <p>
+            Foram realizados testes de abertura e fechamento de portas, além de análise de serviços expostos utilizando Nmap,
+            simulando cenários básicos de segurança.
+        </p>
+
+        <h2>Status</h2>
+        <p>Ambiente funcional</p>
+
+    </div>
+</body>
+</html>
+    </div>
+</body>
+</html>
